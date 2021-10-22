@@ -8,7 +8,7 @@ export default ({children})=>{
     const [isAuthenticated, setIsAuthenticated] = useState(false);
     const [products, setProducts] = useState([])
     const [cards, setCards] = useState();
-    const baseUrl="https://server-ecom.herokuapp.com"
+    const baseUrl="http address of the server"
 
     const [id, setId] = useState();
 
