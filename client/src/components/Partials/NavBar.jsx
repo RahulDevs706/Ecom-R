@@ -28,7 +28,7 @@ const NavBar = () => {
         console.log(data);
         setUser(data?.user);
         setIsAuthenticated(data?.isAuthenticated);
-        history.push('/')
+        window.location.reload(false);
         setIsShown(false)
 
        })
