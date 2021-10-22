@@ -1,0 +1,81 @@
+
+@media (max-width:840px) {
+    .navBarWrapper{
+        height:10h !important;
+    }
+
+    .navBarWrapper>h1>a{
+        font-size: 4vh !important;
+    }
+    
+    .navSearchInput{
+        width:20vw !important;
+    }
+
+    
+    
+
+    .prodCard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 !important;
+    }
+
+    .prodCardWrapper{
+        width:100% !important;  
+        border-bottom: 1px solid #eee      
+    }
+
+    .prodDetailsSub>h2>a{
+        font-size: 4vw !important;
+    }
+
+    .prodDetailsSub>h3{
+        font-size: 2.7vw !important;
+    }
+
+    
+
+    .MuiIcon-root{
+        font-size: 4vw !important;
+    }
+
+    
+    .greet{
+        font-size: 5vw !important;
+    }
+
+    .loginComponent{
+       display: flex;
+       width:75vw !important;
+       justify-content: center;
+    }
+
+    header.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionStatic.MuiAppBar-colorDefault.MuiPaper-elevation4{
+        height:6vh !important;
+    }
+
+    button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected.MuiTab-fullWidth {
+        height: 6vh !important;
+    }
+
+    .MuiTabs-root{
+        height:6vh !important;
+    }
+    .form_container{
+        width: 100vw !important;
+    }
+
+    .passIcon{
+        margin-left: 50vw !important;
+    }
+
+    .addLabel{
+        font-size: 2.5vw ;
+    }
+    .addText{
+        font-size:2.5vw;
+    }
+}

@@ -1,0 +1,90 @@
+.form_container{
+ 
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    width: 400px;
+    background-color: #fff;
+    margin: 100px auto;
+  
+}
+.message{
+    text-align: center ;
+    padding-top: 1vmax ;
+}
+header.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionStatic.MuiAppBar-colorDefault.MuiPaper-elevation4{
+    margin:auto;
+    display: block;
+    height:4vmax;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+button.MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected.MuiTab-fullWidth {
+    height: 4vmax;
+}
+
+.MuiTabs-root{
+    height:4vmax;
+}
+
+input.lastInputofUser {
+    border-radius: 0 0 0.25rem 0.25rem;
+    border-top: 0;
+}
+input.firstInputofUser {
+    border-radius: 0.25rem 0.25rem 0 0;
+    
+}
+
+input.midInputofUser{
+  
+  border-top: 0;
+  border-radius: 0;
+}
+
+.role{
+    outline:none;
+    border:none;
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.role:checked{
+    background-color: green;
+    outline:none;
+    border:none;
+}
+
+.roleCont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.rolesDet{
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{margin:0px !important}
+
+.MuiFormControl-root.css-3cjm13-MuiFormControl-root{
+    margin:10px 0;
+}
+
+.passIcon{
+    margin-left: 308px;
+    margin-top: -37px;
+    position: absolute;
+    cursor: pointer;
+}

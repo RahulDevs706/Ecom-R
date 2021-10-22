@@ -1,0 +1,13 @@
+.footer{
+    height:8vh;
+    width:100%;
+    background-color: #FF7E67;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer>h1{
+    color:#FAFAFA;
+    font-size: 2vmax;
+}

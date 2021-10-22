@@ -1,0 +1,26 @@
+.addWrapper{
+    width:100%;
+    height:82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.addWrapper>h2{
+    font-size: 3vmax;
+}
+
+.addCont{
+    margin-top: -8vmax;
+    box-sizing: border-box;
+    width:50%
+}
+
+.addCont>p{
+    color: #818181;
+    font-size: 0.75vmax;
+
+
+}
