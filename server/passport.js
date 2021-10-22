@@ -17,7 +17,7 @@ const cookieExtractor = req=>{
     return token;
 }
 
-const secretKey ="MySecretKey";
+const secretKey ="YourPersonalSecretKey";
 
 // authorization
 passport.use(new jwtStrategy({
