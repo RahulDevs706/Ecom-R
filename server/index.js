@@ -13,7 +13,7 @@ const corsOptions ={
     AccessControlAllowMethod:'get, put, post',
     AccessControlAllowOrigin:true,
     AccessControlAllowCredentials: true,
-    origin:'https://ecom-demo-app.netlify.app', 
+    origin:'http address of client side', 
     credentials:true,    
     optionSuccessStatus:200
 }
@@ -26,13 +26,12 @@ app.use(cors(corsOptions))
 
 
 
-const uri=process.env.MONGOURI
 
 
 
 const port = process.env.PORT
 
-mongoose.connect("mongodb+srv://admin:admin@cluster0.1slaf.mongodb.net/EcomUserDb?retryWrites=true&w=majority",
+mongoose.connect("mongoose db uri",
  (err)=>{
     if(!err){
         console.log("Succesfully connected to db");
